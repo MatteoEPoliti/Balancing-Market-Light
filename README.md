@@ -29,15 +29,16 @@ using data from TERNA, GME (Gestore Mercati Energetici) and ENTSO-E.
      ENTSO-E data publication delay
    - Autoregressive terms: balancing volume and price lagged by 4 hours
    - Time features: hour of day, weekend flag
-3. **Modelling**: linear regression and Random Forest regressor trained on
+3. **Modelling**: linear regression trained on
    January–June 2025 and tested on July–August 2025,
    targeting balancing volume and balancing price separately
 
 ## Results
-Both models show limited predictive performance (RMSE/std ≈ 0.94–0.96), attributed to:
+The model shows limited predictive performance (RMSE/std ≈ 0.94–0.96), attributed to:
 - insufficient data length (8 months, no annual seasonality captured)
 - missing key drivers (gas price, thermoelectric generation)
-- high volatility and asymmetric distribution of balancing volumes and prices
+- high volatility, asymmetric distribution of balancing volumes
+  and prices and non linear correlation between variables
 
 ## Future Work
 - Extend dataset to 2–3 years to capture annual seasonality
