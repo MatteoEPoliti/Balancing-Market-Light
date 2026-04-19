@@ -3,9 +3,8 @@
 Empirical identification of a structural two-regime behavior in MB prices,
 using TERNA, GME and ENTSO-E data (Jan–Aug 2025).
 
-![Price BM vs Volume BM — thin-market regime](docs/price_vs_volume.png)
+<img width="1353" height="468" alt="image" src="https://github.com/user-attachments/assets/c5690fe1-5b35-4b2e-8723-e2ca5e349fc8" />
 
----
 
 ## Key finding
 
