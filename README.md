@@ -109,7 +109,7 @@ builds on.
 
 `Python` · `pandas` · `numpy` · `scikit-learn` · `matplotlib` · `seaborn`
 
-Jupyter Notebook, VS Code, Git.
+Jupyter Notebook, Git.
 
 ---
 
